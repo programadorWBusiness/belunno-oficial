@@ -141,7 +141,7 @@ export default function Page() {
             {/* Exibição do banner */}
             <Link className="w-full h-full flex justify-center items-center" href={'/Receitas'}>
                 <div
-                    className={`w-full h-[11px] bg-vermelho bg-cover bg-center bg-no-repeat relative cursor-pointer
+                    className={`w-full h-[1100px] bg-vermelho bg-cover bg-center bg-no-repeat relative cursor-pointer
             z-40 em:bg-contain md:bg-laranja md:bg-contain md:bg-top md:h-[445px] lg:bg-cover lg:h-[730px] xl:h-[860px]
              xl:bg-cover 2xl:h-[1100px]
             ${changeBanner === 0 ? 'bg-banner-p-4-m md:bg-banner-p-4' : ''}
