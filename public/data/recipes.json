@@ -1,0 +1,30 @@
+{
+    "recipes": [
+      {
+        "name": " Farofa de Mandioca com Linguiça Belunno",
+        "product": "Linguiça Toscana Belunno",
+        "img": "bg-r-farofa",
+        "prep_time": "25 minutos",
+        "prep_tm": "Rápido",
+        "complexity": "Baixa",
+        "occasion": ["Almoço"],
+        "ingredients": [
+          "2 Linguiças Suínas Belunno (nossa favorita para a receita é a Toscana, mas você pode variar!)",
+          "2 xícaras de farinha de mandioca",
+          "1 cebola picada",
+          "2 dentes de alho picados",
+          "2 colheres de manteiga",
+          "Salsinha picada (opcional)",
+          "Sal e pimenta a gosto"
+        ],
+        "preparation": [
+          "Corte as linguiças Belunno em rodelas e frite na manteiga até dourarem",
+          " Reserve. Na mesma frigideira, refogue a cebola e o alho na manteiga.",
+          "Adicione a farinha de mandioca e tempere com sal e pimenta.",
+          "Adicione as linguiças Belunno fritas, finalize com salsinha e pronto!",
+          "Essa é aquela receita que transforma qualquer refeição em um momento especial!"
+        ]
+      }
+    ]
+  }
+  

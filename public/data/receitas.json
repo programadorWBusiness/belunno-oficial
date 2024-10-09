@@ -1,0 +1,465 @@
+{
+    "recipes": [
+      {
+        "name": "Linguine ao molho cremoso de Linguiça Toscana Apimentada",
+        "product": "Linguiça Toscana Apimentada Belunno",
+        "prep_time": "30 minutos",
+        "prep_tm": "Médio",
+        "prep_t": "Média",
+        "complexity": "Média",
+        "occasion": ["Almoço", "Jantar"],
+        "ingredients": [
+          "200g de linguine",
+          "150g de Linguiça Toscana Apimentada Belunno (retirar a pele e desmanchar)",
+          "1/2 cebola picada",
+          "2 dentes de alho picados",
+          "200ml de creme de leite",
+          "Queijo parmesão ralado a gosto",
+          "Sal e pimenta a gosto"
+        ],
+        "preparation": [
+          "Cozinhe o linguine em água fervente com sal até ficar al dente.",
+          "Em uma frigideira, doure a cebola e o alho em um fio de azeite.",
+          "Adicione a linguiça toscana apimentada e refogue até ficar dourada e soltinha.",
+          "Junte o creme de leite e deixe cozinhar em fogo baixo até o molho engrossar.",
+          "Tempere com sal e pimenta, adicione o linguine cozido e misture bem.",
+          "Sirva com queijo parmesão ralado por cima."
+        ]
+      },
+      {
+        "name": "Pizza de Copa Defumada e Queijo Coalho",
+        "product": "Copa Defumada Belunno",
+        "prep_time": "45 minutos",
+        "prep_tm": "Médio",
+        "complexity": "Média",
+        "occasion": ["Jantar"],
+        "ingredients": [
+          "1 massa de pizza pronta",
+          "100g de Copa Defumada Belunno",
+          "150g de queijo coalho em cubos",
+          "1/2 xícara de molho de tomate",
+          "Azeite e orégano a gosto"
+        ],
+        "preparation": [
+          "Preaqueça o forno a 220°C.",
+          "Abra a massa de pizza e espalhe o molho de tomate.",
+          "Distribua as fatias de copa defumada e os cubos de queijo coalho sobre a massa.",
+          "Regue com azeite e polvilhe orégano a gosto.",
+          "Asse no forno por cerca de 15 minutos ou até o queijo derreter e a massa ficar crocante."
+        ]
+      },
+      {
+        "name": "Escondidinho de Purê de Mandioca com Linguiça Toscana",
+        "product": "Linguiça Toscana Belunno",
+        "prep_time": "60 minutos",
+        "prep_tm": "Demorado",
+        "complexity": "Difícil",
+        "occasion": ["Jantar"],
+        "ingredients": [
+          "500g de mandioca cozida",
+          "200g de Linguiça Toscana Belunno",
+          "1/2 cebola picada",
+          "1 xícara de leite",
+          "2 colheres de sopa de manteiga",
+          "Queijo muçarela para gratinar",
+          "Sal e pimenta a gosto"
+        ],
+        "preparation": [
+          "Amasse a mandioca até virar um purê. Em uma panela, derreta a manteiga, adicione a mandioca e o leite, e cozinhe até ficar cremoso. Tempere com sal e pimenta.",
+          "Em outra panela, refogue a cebola e a linguiça toscana até dourar.",
+          "Em um refratário, faça uma camada com metade do purê de mandioca, adicione a linguiça refogada e cubra com o restante do purê.",
+          "Coloque queijo muçarela por cima e leve ao forno a 180°C até dourar."
+        ]
+      },
+      {
+        "name": "Tábua de Petiscos com Salaminho e Copa Defumada",
+        "product": "Salaminho e Copa Defumada Belunno",
+        "prep_time": "15 minutos",
+        "prep_tm": "Rápido",
+        "complexity": "Baixa",
+        "occasion": ["Happy hour"],
+        "ingredients": [
+          "100g de Salaminho Belunno",
+          "100g de Copa Defumada Belunno",
+          "Queijo de sua preferência",
+          "Frutas secas e castanhas"
+        ],
+        "preparation": [
+          "Arrume as fatias de salaminho e copa defumada em uma tábua de madeira.",
+          "Adicione os pedaços de queijo, frutas secas e castanhas ao redor.",
+          "Sirva com pães e azeite."
+        ]
+      },
+      {
+        "name": "Churrasco de Linguiça Apimentada com Abacaxi Grelhado",
+        "product": "Linguiça Toscana Apimentada Belunno",
+        "prep_time": "40 minutos",
+        "prep_tm": "Médio",
+        "complexity": "Baixa",
+        "occasion": ["Churrasco"],
+        "ingredients": [
+          "500g de Linguiça Toscana Apimentada Belunno",
+          "1 abacaxi cortado em rodelas",
+          "Azeite e sal a gosto"
+        ],
+        "preparation": [
+          "Grelhe as linguiças toscanas apimentadas na churrasqueira até dourarem.",
+          "Pincele azeite nas rodelas de abacaxi e grelhe até ficarem caramelizadas.",
+          "Sirva as linguiças com o abacaxi grelhado e farofa."
+        ]
+      },
+      {
+        "name": "Feijoada Rápida com Embutido Misto Sabor Calabresa",
+        "product": "Embutido Misto Sabor Calabresa Belunno",
+        "prep_time": "60 minutos",
+        "prep_tm": "Demorado",
+        "complexity": "Média",
+        "occasion": ["Almoço","Jantar"],
+        "ingredients": [
+          "300g de Embutido Misto Sabor Calabresa Belunno",
+          "500g de feijão preto cozido",
+          "1 cebola picada",
+          "2 folhas de louro",
+          "1 dente de alho picado",
+          "Azeite, sal e pimenta a gosto"
+        ],
+        "preparation": [
+          "Em uma panela, refogue a cebola e o alho no azeite.",
+          "Adicione o embutido misto e doure por alguns minutos.",
+          "Junte o feijão cozido e o louro, e deixe cozinhar por 20 minutos.",
+          "Tempere com sal e pimenta, e sirva com arroz branco e farofa."
+        ]
+      },
+      {
+        "name": "Lasanha de Linguiça Toscana e Molho de Tomate Caseiro",
+        "product": "Linguiça Toscana Belunno",
+        "prep_time": "75 minutos",
+        "prep_tm": "Demorado",
+        "complexity": "Alta",
+        "occasion": ["Almoço","Jantar"],
+        "ingredients": [
+          "300g de Linguiça Toscana Belunno (sem pele)",
+          "500g de molho de tomate",
+          "300g de massa para lasanha",
+          "200g de queijo muçarela",
+          "100g de queijo parmesão ralado"
+        ],
+        "preparation": [
+          "Refogue a linguiça toscana em uma panela até dourar, depois adicione o molho de tomate.",
+          "Monte a lasanha em camadas alternando a massa, molho de linguiça e queijo.",
+          "Finalize com queijo parmesão e leve ao forno a 180°C por 40 minutos."
+        ]
+      },
+      {
+        "name": "Risoto de Linguiça Toscana com Cogumelos",
+        "product": "Linguiça Toscana Belunno",
+        "prep_time": "40 minutos",
+        "prep_tm": "Médio",
+        "complexity": "Média",
+        "occasion": ["Almoço","Jantar"],
+        "ingredients": [
+          "200g de Linguiça Toscana Belunno (sem pele)",
+          "1 xícara de arroz arbóreo",
+          "150g de cogumelos fatiados",
+          "1/2 cebola picada",
+          "1/2 xícara de vinho branco",
+          "1 litro de caldo de legumes",
+          "Queijo parmesão a gosto"
+        ],
+        "preparation": [
+          "Refogue a cebola e a linguiça em uma panela até dourar.",
+          "Adicione o arroz arbóreo e refogue por mais 2 minutos.",
+          "Junte o vinho branco e deixe evaporar. Aos poucos, adicione o caldo de legumes até o arroz ficar al dente.",
+          "Misture os cogumelos e finalize com queijo parmesão."
+        ]
+      },
+      {
+        "name": "Pão Rústico Recheado com Linguiça Calabresa",
+        "product": "Embutido Misto Sabor Calabresa Belunno",
+        "prep_time": "90 minutos",
+        "prep_tm": "Demorado",
+        "complexity": "Alta",
+        "occasion": ["Café da manhã"],
+        "ingredients": [
+          "500g de farinha de trigo",
+          "200g de Embutido Misto Sabor Calabresa Belunno",
+          "300ml de água morna",
+          "1 colher de sopa de fermento biológico seco",
+          "1 colher de chá de sal"
+        ],
+        "preparation": [
+          "Misture a farinha, o sal e o fermento em uma tigela.",
+          "Adicione a água e misture até formar uma massa. Sove por 10 minutos.",
+          "Deixe a massa descansar por 1 hora. Após crescer, abra a massa e recheie com a linguiça calabresa.",
+          "Modele o pão, coloque em uma assadeira e asse por 40 minutos a 200°C."
+        ]
+      },
+      {
+        "name": "Bolinho de Linguiça com Molho de Mostarda e Mel",
+        "product": "Linguiça de Churrasco Belunno",
+        "prep_time": "35 minutos",
+        "prep_tm": "Médio",
+        "complexity": "Baixa",
+        "occasion": ["Happy Hour"],
+        "ingredients": [
+          "300g de Linguiça Churrasco Belunno (sem pele)",
+          "1 ovo",
+          "1/2 xícara de farinha de rosca",
+          "Óleo para fritar"
+        ],
+        "preparation": [
+          "Misture a linguiça com o ovo e a farinha de rosca até formar uma massa.",
+          "Modele os bolinhos e frite em óleo quente até dourar.",
+          "Sirva com molho de mostarda e mel."
+        ]
+      },
+      {
+        "name": "Escondidinho de Linguiça Toscana com Abóbora",
+        "product": "Linguiça Toscana Belunno",
+        "prep_time": "50 minutos",
+        "prep_tm": "Demorado",
+        "complexity": "Média",
+        "occasion": ["Almoço", "Jantar"],
+        "ingredients": [
+          "500g de Linguiça Toscana Belunno",
+          "1 kg de abóbora cabotiá",
+          "200g de requeijão cremoso",
+          "Queijo parmesão ralado a gosto",
+          "Sal e pimenta a gosto"
+        ],
+        "preparation": [
+          "Cozinhe a abóbora até amolecer e faça um purê com sal e pimenta.",
+          "Retire a pele da Linguiça Toscana Belunno, frite bem e desfie.",
+          "Em um refratário, faça uma camada de purê, depois uma de linguiça desfiada e finalize com o requeijão.",
+          "Cubra com parmesão e leve ao forno para gratinar por 20 minutos a 180°C."
+        ]
+      },
+      {
+        "name": "Pizza de Copa Defumada com Rúcula e Parmesão",
+        "product": "Copa Defumada Belunno",
+        "prep_time": "25 minutos",
+        "prep_tm": "Rápido",
+        "complexity": "Baixa",
+        "occasion": ["Lanche"],
+        "ingredients": [
+          "150g de Copa Defumada Belunno",
+          "Massa de pizza pronta",
+          "100g de queijo mussarela",
+          "1 maço de rúcula",
+          "50g de queijo parmesão ralado",
+          "Molho de tomate"
+        ],
+        "preparation": [
+          "Espalhe o molho sobre a massa e distribua a mussarela.",
+          "Leve ao forno preaquecido a 220°C por 10 minutos até derreter o queijo.",
+          "Adicione a Copa Defumada Belunno, rúcula e parmesão ralado. Sirva."
+        ]
+      },
+      {
+        "name": "Tacos de Linguiça Apimentada com Guacamole",
+        "product": "Linguiça Toscana Apimentada Belunno",
+        "prep_time": "30 minutos",
+        "prep_tm": "Médio",
+        "complexity": "Média",
+        "occasion": ["Lanche"],
+        "ingredients": [
+          "300g de Linguiça Toscana Apimentada Belunno",
+          "Tortilhas de milho",
+          "2 abacates",
+          "1 tomate picado",
+          "1 cebola roxa picada",
+          "Suco de 1 limão",
+          "Sal e pimenta a gosto"
+        ],
+        "preparation": [
+          "Frite a Linguiça Apimentada até dourar e corte em pedaços pequenos.",
+          "Prepare o guacamole amassando os abacates com o tomate, cebola, limão, sal e pimenta.",
+          "Monte os tacos com a linguiça e guacamole. Sirva."
+        ]
+      },
+      {
+        "name": "Churrasco Completo com Linguiça de Churrasco e Salaminho",
+        "product": "Linguiça de Churrasco Belunno",
+        "prep_time": "1 hora",
+        "prep_tm": "Demorado",
+        "complexity": "Baixa",
+        "occasion": ["Churrasco"],
+        "ingredients": [
+          "1kg de Linguiça de Churrasco Belunno",
+          "200g de Salaminho Belunno",
+          "Farofa e vinagrete para acompanhar"
+        ],
+        "preparation": [
+          "Asse a linguiça na grelha em fogo médio até dourar.",
+          "Fatie o Salaminho Belunno como petisco enquanto a linguiça assa.",
+          "Sirva com farofa e vinagrete."
+        ]
+      },
+      {
+        "name": "Cuscuz Nordestino com Embutido Misto Calabresa",
+        "product": "Embutido Misto Sabor Calabresa Belunno",
+        "prep_time": "35 minutos",
+        "prep_tm": "Médio",
+        "complexity": "Média",
+        "occasion": ["Lanche", "Almoço"],
+        "ingredients": [
+          "300g de Embutido Misto Calabresa Belunno",
+          "1 xícara de flocos de milho pré-cozidos",
+          "1 cenoura ralada",
+          "1 cebola picada",
+          "Cheiro-verde a gosto"
+        ],
+        "preparation": [
+          "Hidrate os flocos de milho com água.",
+          "Frite o Embutido Misto Calabresa até dourar e reserve.",
+          "Refogue a cebola e a cenoura, misture ao cuscuz e acrescente o embutido frito.",
+          "Finalize com cheiro-verde e sirva."
+        ]
+      },
+      {
+        "name": "Risoto de Linguiça Toscana com Queijo Coalho",
+        "product": "Linguiça Toscana Belunno",
+        "prep_time": "40 minutos",
+        "prep_tm": "Médio",
+        "complexity": "Média",
+        "occasion": ["Jantar"],
+        "ingredients": [
+          "300g de Linguiça Toscana Belunno",
+          "1 xícara de arroz arbóreo",
+          "1 litro de caldo de legumes",
+          "100g de queijo coalho em cubos",
+          "1 cebola picada",
+          "1 taça de vinho branco"
+        ],
+        "preparation": [
+          "Frite a Linguiça Toscana e reserve.",
+          "Refogue a cebola, adicione o arroz e mexa. Junte o vinho e deixe evaporar.",
+          "Adicione o caldo de legumes aos poucos, mexendo sempre.",
+          "Acrescente a linguiça e o queijo coalho. Sirva cremoso."
+        ]
+      },
+      {
+        "name": "Feijoada Light com Copa Defumada e Bacon",
+        "product": "Copa Defumada Belunno",
+        "prep_time": "1h30",
+        "prep_tm": "Demorado",
+        "complexity": "Alta",
+        "occasion": ["Almoço", "Jantar"],
+        "ingredients": [
+          "200g de Copa Defumada Belunno",
+          "200g de Bacon Belunno",
+          "500g de feijão preto",
+          "1 cebola picada",
+          "2 dentes de alho picados",
+          "Cheiro-verde a gosto"
+        ],
+        "preparation": [
+          "Cozinhe o feijão preto na pressão por 30 minutos.",
+          "Frite o bacon e a Copa Defumada até dourarem.",
+          "Refogue o alho e a cebola, misture ao feijão e deixe cozinhar por mais 15 minutos.",
+          "Finalize com cheiro-verde e sirva."
+        ]
+      },
+      {
+        "name": "Macarrão Alho e Óleo com Linguiça Toscana",
+        "product": "Linguiça Toscana Belunno",
+        "prep_time": "25 minutos",
+        "prep_tm": "Rápido",
+        "complexity": "Baixa",
+        "occasion": ["Almoço", "Jantar"],
+        "ingredients": [
+          "300g de Linguiça Toscana Belunno",
+          "500g de macarrão espaguete",
+          "4 dentes de alho picados",
+          "Azeite de oliva",
+          "Pimenta-do-reino e salsinha a gosto"
+        ],
+        "preparation": [
+          "Cozinhe o macarrão até ficar al dente.",
+          "Frite a Linguiça Toscana até dourar.",
+          "Aqueça o azeite e frite o alho até dourar. Misture com a linguiça e o macarrão.",
+          "Tempere com pimenta e salsinha. Sirva quente."
+        ]
+      },
+      {
+        "name": "Salada de Grãos com Linguiça Apimentada e Manga",
+        "product": "Linguiça Toscana Apimentada Belunno",
+        "prep_time": "30 minutos",
+        "prep_tm": "Médio",
+        "complexity": "Baixa",
+        "occasion": ["Almoço"],
+        "ingredients": [
+          "200g de Linguiça Toscana Apimentada Belunno",
+          "1 xícara de quinoa cozida",
+          "1 manga picada",
+          "Folhas de alface e rúcula",
+          "Molho de azeite e limão"
+        ],
+        "preparation": [
+          "Frite a Linguiça Apimentada e corte em rodelas.",
+          "Misture a quinoa com manga e folhas verdes.",
+          "Acrescente a linguiça e finalize com o molho de azeite e limão."
+        ]
+      },
+      {
+        "name": "Pão Rústico com Salame Italiano",
+        "product": "Salame Italiano Belunno",
+        "prep_time": "15 minutos",
+        "prep_tm": "Rápido",
+        "complexity": "Baixa",
+        "occasion": ["Lanche"],
+        "ingredients": [
+          "150g de Salame Italiano Belunno",
+          "1 pão rústico artesanal",
+          "100g de queijo brie",
+          "Folhas de manjericão fresco"
+        ],
+        "preparation": [
+          "Corte o pão e aqueça-o levemente no forno.",
+          "Adicione o salame e o queijo brie. Leve ao forno para derreter o queijo.",
+          "Finalize com manjericão fresco e sirva."
+        ]
+      },
+      {
+        "name": " Farofa de Mandioca com Linguiça Belunno",
+        "product": "Linguiça Toscana Belunno",
+        "img": "bg-r-farofa",
+        "prep_time": "25 minutos",
+        "prep_tm": "Rápido",
+        "complexity": "Baixa",
+        "occasion": ["Lanche"],
+        "ingredients": [
+          "2 Linguiças Suínas Belunno (nossa favorita para a receita é a Toscana, mas você pode variar!)",
+          "2 xícaras de farinha de mandioca",
+          "1 cebola picada",
+          "2 dentes de alho picados",
+          "2 colheres de manteiga",
+          "Salsinha picada (opcional)",
+          "Sal e pimenta a gosto"
+        ],
+        "preparation": [
+          "Corte as linguiças Belunno em rodelas e frite na manteiga até dourarem",
+          " Reserve. Na mesma frigideira, refogue a cebola e o alho na manteiga.",
+          "Adicione a farinha de mandioca e tempere com sal e pimenta.",
+          "Adicione as linguiças Belunno fritas, finalize com salsinha e pronto!",
+          "Essa é aquela receita que transforma qualquer refeição em um momento especial!"
+        ]
+      },
+      {
+        "name": "",
+        "product": "",
+        "img": "",
+        "prep_time": "",
+        "prep_tm": "",
+        "complexity": "",
+        "occasion": ["Lanche"],
+        "ingredients": [
+          ""
+        ],
+        "preparation": [
+          ""
+        ]
+      }
+    ]
+  }
+  
