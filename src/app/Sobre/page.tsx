@@ -1,6 +1,15 @@
+import { Metadata } from "next";
 import { AboutCarrosel } from "../components/AboutCarrosel";
 import { AboutLine } from "../components/AboutLine";
 import { AboutSpan } from "../components/AboutSpan";
+
+export const metadata: Metadata = {
+
+
+    viewport: "width=device-width, initial-scale=1.0",
+    title: "Belunno - Embutidos de Qualidade, Sabor e Tradição",
+    description: "A Belunno é referência em embutidos de carne suína, unindo tradição e tecnologia para garantir sabores autênticos e segurança alimentar. Conheça nossa história, nosso compromisso com a qualidade e como nos tornamos líderes no mercado de embutidos no Norte do Brasil.",
+  };
 
 export default function Page() {
 

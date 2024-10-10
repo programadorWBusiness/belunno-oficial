@@ -12,7 +12,7 @@ export const FormSend = () => {
             <div className="w-full h-full flex justify-center items-center flex-col">
                 <h1 className="text-lg md:text-[24px] font-conthrax text-black text-center">
                     Email enviado com sucesso para nossa equipe {";)"}</h1>
-                <p className="text-lg md:text-3xl font-nexa text-black">Equanto isso de uma olhadas nas</p>
+                <p className="text-lg md:text-3xl font-nexa text-black">Enquanto isso de uma olhadas nas:</p>
 
                 <p className="text-xl text-vermelho md:text-[22px] font-semibold mt-7">Nossas Redes Sociais:</p>
                 <a href="" target='_blank'>
