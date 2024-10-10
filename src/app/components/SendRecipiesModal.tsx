@@ -131,7 +131,7 @@ export const SendRecipiesModal = () => {
 
         console.log(product, preparationTime, occasion, complexity)
 
-        emailjs.send("service_djqvniv", "template_pakgcls", templateParams, "j6DMiulw0GAtnRKVr")
+        emailjs.send("service_muleqcd", "template_2hcmneb", templateParams, "tIqHzA3OxyVJIggwL")
             .then((response) => {
                 console.log("email Enviado", response.status, response.text);
                 setMessage('');

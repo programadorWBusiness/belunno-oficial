@@ -74,7 +74,7 @@ export const ContactForm = () => {
 
         console.log(process.env.NEXT_PUBLIC_EMAILJS_USER_ID)
 
-        emailjs.send("service_sehnuts", "template_tpoqg2s", templateParams, "b8thRCDhLUkpVcbAB")
+        emailjs.send("service_muleqcd", "template_ulpkanr", templateParams, "tIqHzA3OxyVJIggwL")
             .then((response) => {
                 console.log("email Enviado", response.status, response.text);
                 setMessage('');
