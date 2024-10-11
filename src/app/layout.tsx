@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://belunno.com.br",
-    title: "BBelunno - Embutidos de Qualidade, Sabor e Tradição",
+    title: "Belunno - Embutidos de Qualidade, Sabor e Tradição",
     description: "Descubra os embutidos suínos de alta qualidade da Belunno, desenvolvidos para os consumidores mais exigentes. Líder no Norte do Brasil, oferecemos uma linha completa de produtos para churrasco, restaurantes e atacado. Saiba mais sobre nossas ofertas e condições especiais.",
     siteName: "Belunno",
     images: [{

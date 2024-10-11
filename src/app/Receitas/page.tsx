@@ -8,6 +8,7 @@ interface Recipe {
     name: string;
     product: string;
     img?: string;
+    vid?: string;
     prep_time: string; // ou number, dependendo de como você está armazenando o tempo
     prep_tm: string;
     complexity: string;
@@ -114,6 +115,7 @@ export default function Page() {
                                         <option value="Salame Italiano Belunno">Salame Italiano</option>
                                         <option value="Linguiça Toscana Belunno">Linguiça Toscana</option>
                                         <option value="Linguiça de Churrasco Belunno">Linguiça de Churrasco</option>
+                                        <option value="Linguiça Calabresa Belunno">Linguiça Calabresa</option>
                                         <option value="Salaminho e Copa Defumada Belunno">Salaminho e Copa Defumada</option>
                                     </select>
 
@@ -198,7 +200,18 @@ export default function Page() {
                             {filteredRecipes.slice(visibleRecipes, visibleRecipes + 3).map((recipe, index) => (
                                 <div key={index} className="w-[33%] h-full border-white border-8 my-6 shadow-md text-black flex 
                                 flex-col justify-center items-center">
-                                    <div className={`w-full h-[200px] bg-blue-300 ${recipe.img ? recipe.img : "bg-recipies"} bg-cover bg-center bg-no-repeat `}>{/*Imagens*/}</div>
+                                    {recipe.img &&
+                                        <div className={`w-full h-[320px] bg-blue-300 ${recipe.img ? recipe.img : "bg-recipies"} bg-cover bg-center bg-no-repeat `}>{/*Imagens*/}</div>
+                                    }
+
+                                    {recipe.vid &&
+                                        <video src={`/images/${recipe.vid}`}
+                                            className="w-full h-[320px] object-fill"
+                                            controls
+                                            loop
+                                            playsInline></video>
+                                    }
+
                                     <h3 className="w-full font-bold text-xl text bg-laranja text-center h-[70px] 
                                         flex justify-center items-center">{recipe.name}</h3>
                                     <div className="w-full flex justify-center items-center p py-4 flex-col">

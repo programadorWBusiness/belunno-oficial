@@ -1,6 +1,37 @@
 {
     "recipes": [
       {
+        "name": "Arroz Paraense com Linguiça Calabresa Belunno e Jambu",
+        "product": "Linguiça Calabresa Belunno",
+        "vid": "arroz-paranaense.mp4",
+        "prep_time": "30 minutos",
+        "prep_tm": "Médio",
+        "complexity": "Baixa",
+        "occasion": ["Almoço"],
+        "ingredients": [
+          "2 linguiças calabresas Belunno, cortadas em cubinhos",
+          "1 cebola picada",
+          "2 dentes de alho picados",
+          "1 xícara de arroz",
+          "1 xícara de tucupi",
+          "2 doses de cachaça (opcional, mas recomendável)",
+          "Pimenta de cheiro a gosto",
+          "Folhas e talos finos de jambu",
+          "Sal a gosto"
+        ],
+        "preparation": [
+          "1. Preparar a linguiça: Corte as linguiças calabresas Belunno em cubinhos e coloque diretamente na panela. Deixe dourar bem.",
+          "2. Refogar os temperos: Adicione a cebola e o alho picados à panela e refogue até ficarem dourados. O aroma já vai começar a tomar conta da cozinha",
+          "3. Adicionar o arroz: Acrescente o arroz à panela e mexa bem até os grãos ficarem brilhantes.",
+          "4. Adicionar a cachaça: Opcional, mas altamente recomendável para realçar os sabores. Despeje as duas doses de cachaça e misture.",
+          "5. Incorporar o tucupi: Adicione uma xícara de tucupi, o suco típico da mandioca da culinária paraense, e misture bem.",
+          "6. Temperar: Acrescente pimenta de cheiro e ajuste o sal a gosto. Tampe a panela e deixe cozinhar por cerca de 10 minutos.",
+          "7. Finalizar com jambu: Nos últimos 3 minutos de cozimento, coloque por cima as folhas e talos finos de jambu, dando aquele toque paraense inconfundível.",
+          "8. Ajustar o ponto: Se o arroz ainda não estiver totalmente cozido, adicione mais um pouco de tucupi e continue cozinhando com a panela tampada.",
+          "Agora é só servir e aproveitar o sabor autêntico da culinária paraense com o toque especial da linguiça Calabresa Belunno!"
+        ]
+      },
+      {
         "name": " Farofa de Mandioca com Linguiça Belunno",
         "product": "Linguiça Toscana Belunno",
         "img": "bg-r-farofa",
