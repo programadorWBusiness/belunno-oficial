@@ -55,7 +55,23 @@
           "Adicione as linguiças Belunno fritas, finalize com salsinha e pronto!",
           "Essa é aquela receita que transforma qualquer refeição em um momento especial!"
         ]
+      },
+      {
+        "name": "Produtos Belunno",
+        "product": "da linha premium Belunno",
+        "vid": "belunno-video.mp4",
+        "prep_time": "1 minuto",
+        "prep_tm": "",
+        "complexity": "do básico ao avançado",
+        "occasion": ["Todas as ocasiões"],
+        "ingredients": [
+          "Linguiça Toscana Apimentada Belunno, Copa Defumada Belunno, Embutido Misto Sabor Calabresa Belunno, Salame Italiano Belunno, Linguiça Toscana Belunno, Linguiça Calabresa Belunno, Salaminho e Copa Defumada Belunno"
+        ],
+        "preparation": [
+          "Os produtos Belunno garantem excelência e sabor em cada receita, com a mais alta qualidade dos ingredientes e um rigoroso cuidado na produção. Utilize Belunno para elevar suas refeições a um novo patamar de sabor e sofisticação!"
+        ]
       }
+      
     ]
   }
   

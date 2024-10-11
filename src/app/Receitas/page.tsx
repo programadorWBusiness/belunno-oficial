@@ -235,7 +235,19 @@ export default function Page() {
                             {filteredRecipes.slice(visibleRecipes, visibleRecipes + 2).map((recipe, index) => (
                                 <div key={index} className="w-[48%] h-full border-white border-8 my-6 shadow-md text-black flex 
                                     flex-col justify-center items-center">
-                                    <div className={`w-full h-[200px] bg-blue-300 ${recipe.img ? recipe.img : "bg-recipies"} bg-cover bg-center bg-no-repeat`}>{/*Imagens*/}</div>
+
+                                    {recipe.img &&
+                                        <div className={`w-full h-[220px] bg-blue-300 ${recipe.img ? recipe.img : "bg-recipies"} bg-cover bg-center bg-no-repeat `}>{/*Imagens*/}</div>
+                                    }
+
+                                    {recipe.vid &&
+                                        <video src={`/images/${recipe.vid}`}
+                                            className="w-full h-[220px] object-fill"
+                                            controls
+                                            loop
+                                            playsInline></video>
+                                    }
+
                                     <h3 className="w-full font-bold text-lg text bg-laranja text-center h-[80px] 
                                         flex justify-center items-center px-2">{recipe.name}</h3>
                                     <div className="w-full flex justify-center items-center py-4 space-y-2 flex-col">
@@ -258,7 +270,19 @@ export default function Page() {
                             {filteredRecipes.slice(visibleRecipes, visibleRecipes + 1).map((recipe, index) => (
                                 <div key={index} className="w-full h-full border-white border-8 my-6 shadow-md text-black flex 
                                 flex-col justify-center items-center">
-                                    <div className={`w-full h-[200px] bg-blue-300 ${recipe.img ? recipe.img : "bg-recipies"} bg-cover bg-center bg-no-repeat`}>{/*Imagens*/}</div>
+                                    
+                                    {recipe.img &&
+                                        <div className={`w-full h-[220px] bg-blue-300 ${recipe.img ? recipe.img : "bg-recipies"} bg-cover bg-center bg-no-repeat `}>{/*Imagens*/}</div>
+                                    }
+
+                                    {recipe.vid &&
+                                        <video src={`/images/${recipe.vid}`}
+                                            className="w-full h-[220px] object-fill"
+                                            controls
+                                            loop
+                                            playsInline></video>
+                                    }
+
                                     <h3 className="w-full font-bold text-lg text bg-laranja text-center h-[100px] 
                                         flex justify-center items-center">{recipe.name}</h3>
                                     <div className="w-full flex justify-center items-center py-4 space-y-2 flex-col">
