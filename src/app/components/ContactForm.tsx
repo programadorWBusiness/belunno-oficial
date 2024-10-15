@@ -131,9 +131,10 @@ export const ContactForm = () => {
                                     className={`w-[100%] h-[36px] bg-white text-black rounded-md md:w-[95%] border-black border pl-4`}
                                 >
                                     <option value="" disabled>Assunto</option>
-                                    <option value="duvidas">Dúvidas Frequentes</option>
-                                    <option value="curriculo">Currículo</option>
+                                    <option value="como comprar">Como Comprar</option>
+                                    <option value="vaga de emprego">Vagas de Emprego</option>
                                     <option value="parcerias">Parcerias</option>
+                                    <option value="outro">Outro</option>
                                     {/* Adicione mais opções aqui, se necessário */}
                                 </select>
                             </div>

@@ -108,15 +108,15 @@ export default function Page() {
                                 <div className="flex flex-col space-y-4 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-4">
                                     <select value={product} onChange={(e) => setProduct(e.target.value)} className="p-2 rounded-lg w-full text-black">
                                         <option value="">Selecione o produto</option>
-                                        <option value="Linguiça Toscana Apimentada Belunno">Linguiça Toscana Apimentada</option>
-                                        <option value="Copa Defumada Belunno">Copa Defumada</option>
+                                        <option value="Linguiça Toscana Apimentada Belunno">Linguiça toscana apimentada</option>
+                                        <option value="Copa Defumada Belunno">Copa defumada</option>
                                         {/*<option value="Salaminho Belunno">Salaminho</option>*/}
-                                        <option value="Embutido Misto Sabor Calabresa Belunno">Embutido Misto Sabor Calabresa</option>
-                                        <option value="Salame Italiano Belunno">Salame Italiano</option>
-                                        <option value="Linguiça Toscana Belunno">Linguiça Toscana</option>
-                                        <option value="Linguiça de Churrasco Belunno">Linguiça de Churrasco</option>
-                                        <option value="Linguiça Calabresa Belunno">Linguiça Calabresa</option>
-                                        <option value="Salaminho e Copa Defumada Belunno">Salaminho e Copa Defumada</option>
+                                        <option value="Embutido Misto Sabor Calabresa Belunno">Embutido misto sabor calabresa</option>
+                                        <option value="Salame Italiano Belunno">Salame italiano</option>
+                                        <option value="Linguiça Toscana Belunno">Linguiça toscana</option>
+                                        <option value="Linguiça de Churrasco Belunno">Linguiça para churrasco</option>
+                                        <option value="Linguiça Calabresa Belunno">Linguiça calabresa</option>
+                                        <option value="Salaminho e Copa Defumada Belunno">Salaminho e copa defumada</option>
                                     </select>
 
                                     <select value={preparationTime} onChange={(e) => setPreparationTime(e.target.value)} className="p-2 rounded-lg w-full text-black">

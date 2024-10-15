@@ -57,6 +57,44 @@
         ]
       },
       {
+        "name": "Choripán Paraense e Choripán Tradicional ",
+        "product": "Linguiça Toscana Belunno",
+        "vid": "Choripan.mp4",
+        "prep_time": "30 minutos",
+        "prep_tm": "Médio",
+        "complexity": "Média",
+        "occasion": ["Almoço"],
+        "ingredients": [
+          "2 Linguiças Toscana Belunno",
+          "Pão francês ou baguete",
+          "Queijo ou requeijão (a gosto)",
+          "1 maço de jambu",
+          "1 xícara de tucupi",
+          "1 limão",
+          "2 dentes de alho picados",
+          "1 colher de azeite",
+          "200g de camarão rosa",
+          "Sal e pimenta a gosto",
+          "Chimichurri (para o Choripán tradicional)"
+        ],
+        "preparation": [
+          "1. Preparo do Choripán Paraense:",
+          "○ Aqueça o azeite em uma panela e doure o alho picado",
+          "○ Adicione o jambu e o tucupi, deixando cozinhar por alguns minutos. Tempere com sal e pimenta. Reserve.",
+          "○ Grelhe as linguiças Toscana Belunno até ficarem bem douradas e suculentas.",
+          "○ Refogue os camarões rosa até estarem cozidos.",
+          "○ Corte o pão ao meio e passe o queijo ou requeijão.",
+          "○ Coloque a linguiça grelhada, adicione os camarões refogados e regue com o jambu e tucupi. Pronto! Choripán Paraense finalizado!",
+          "",
+          "2. Preparo do Choripán Tradicional:",
+          "○ Grelhe as linguiças Toscana Belunno até dourarem.",
+          "○ Corte o pão ao meio, passe chimichurri e adicione a linguiça grelhada",
+          "○ Finalize com mais chimichurri por cima e está pronto o Choripán Tradicional!",
+          "",
+          "Essa receita é perfeita para transformar qualquer refeição em um momento especial!"
+        ]
+      },
+      {
         "name": "Produtos Belunno",
         "product": "da linha premium Belunno",
         "vid": "belunno-video.mp4",

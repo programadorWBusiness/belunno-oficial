@@ -6,7 +6,7 @@ import { GoTriangleDown, GoTriangleUp } from "react-icons/go";
 import dynamic from "next/dynamic";
 
 export default function Page() {
-    const [expandedSections, setExpandedSections] = useState([false, false, false, false]);
+    const [expandedSections, setExpandedSections] = useState([false, false, false, false, false]);
 
     const toggleExpand = (index: number) => {
         // Alterna o estado da seção clicada
@@ -66,10 +66,10 @@ export default function Page() {
                                 {expandedSections[0] && <GoTriangleUp />}
                                 {!expandedSections[0] && <GoTriangleDown />}</span> {/* Ícone que alterna */}
                         </div>
-                        <div className={`overflow-hidden transition-all duration-500 ${expandedSections[0] ? "h-[105px] md:h-[80px] lg:h-[100px]" : "h-[0px]"} 
+                        <div className={`overflow-hidden transition-all duration-500 ${expandedSections[0] ? "h-[145px] md:h-[80px] lg:h-[120px]" : "h-[0px]"} 
                             `}>
                             <ul className="text-black text-[13px] lg:text-lg">
-                                <li>Os produtos Belunno estão disponíveis em diversos pontos de venda do Norte do Brasil.  Você pode encontrá-los em supermercados, açougues e lojas especializadas. Para saber o ponto de venda mais próximo, entre em contato com a nossa equipe.</li>
+                                <li>Os produtos Belunno estão amplamente disponíveis em várias regiões do Norte do Brasil, especialmente em atacadistas, supermercados e açougues. Para localizar o ponto de venda mais próximo de você, entre em contato com a nossa equipe ou acompanhe nossas redes sociais para atualizações sobre novos parceiros e pontos de venda.</li>
                             </ul>
                         </div>
                     </div>
@@ -77,38 +77,66 @@ export default function Page() {
                     <div className="w-full h-full flex flex-col">
                         <div className="flex justify-start items-center cursor-pointer text-[18px]" onClick={() => toggleExpand(1)}>
                             <span className="text-base text-black font-bold mb-2 md:text-lg xl:text-2xl"
-                            >Como armazenar os embutidos corretamente?</span>
+                            >Quais os principais ingredientes da Linguiça Toscana (5kg)?</span>
                             <span className="text-xl text-vermelho pb-2">
                                 {expandedSections[1] && <GoTriangleUp />}
                                 {!expandedSections[1] && <GoTriangleDown />}</span> {/* Ícone que alterna */}
                         </div>
-                        <div className={`overflow-hidden transition-all duration-500 ${expandedSections[1] ? "h-[180px] md:h-[130px] lg:h-[180px] xl:h-[150px]" : "h-[0px]"} 
+                        <div className={`overflow-hidden transition-all duration-500 ${expandedSections[1] ? "h-[140px] md:h-[100px] lg:h-[130px] xl:h-[100px]" : "h-[0px]"} 
                             `}>
                             <ul className="text-black text-[13px] lg:text-lg">
-                                <li>Para garantir a qualidade e segurança dos embutidos Belunno, recomendamos seguir as seguintes orientações:</li>
-                                <li>- Mantenha os produtos congelados a -12ºC ou em temperatura inferior até o momento do uso.</li>
-                                <li>- Após aberto, consumir o produto em até 2 dias, mantendo-o refrigerado entre 4ºC e 8ºC.</li>
-                                <li>- Evite recongelar os produtos que já foram descongelados.</li>
-                                <li>- Armazene os embutidos em embalagens herméticas para preservar seu sabor e frescor.</li>
+                                <p>A Linguiça Toscana contém carne suína, gordura suína, 12% de água, sal, estabilizante (tripolifosfato de sódio), antioxidante (eritorbato de sódio), realçador de sabor (glutamato monossódico), especiarias naturais (cebola, pimenta preta e coentro), conservantes (nitrito de sódio e nitrato de sódio), corante natural (carmim de cochonilha) e aroma natural de alho.</p>
                             </ul>
                         </div>
                     </div>
 
                     <div className="w-full h-full flex flex-col">
                         <div className="flex justify-start items-center cursor-pointer text-[18px]" onClick={() => toggleExpand(2)}>
-                            <span className="text-base text-black font-bold md:text-lg xl:text-2xl"
-                            >Qual o prazo de validade dos produtos?</span>
+                            <span className="text-base text-black font-bold mb-2 md:text-lg xl:text-2xl"
+                            >Como deve ser feito o descongelamento seguro da Linguiça Toscana Apimentada?</span>
                             <span className="text-xl text-vermelho pb-2">
                                 {expandedSections[2] && <GoTriangleUp />}
                                 {!expandedSections[2] && <GoTriangleDown />}</span> {/* Ícone que alterna */}
                         </div>
                         <div className={`overflow-hidden transition-all duration-500 ${expandedSections[2] ?
-                            "h-[200px] md:h-[130px] lg:h-[200px] xl:h-[140px]" : "h-[0px]"} 
+                            "h-[120px] md:h-[70px] lg:h-[90px] xl:h-[70px]" : "h-[0px]"} 
                             `}>
                             <ul className="text-black text-[13px] lg:text-lg">
-                                <li>O prazo de validade dos embutidos Belunno pode variar de acordo com o produto e as condições de armazenamento:</li>
-                                <li>- Embutidos congelados (Linguiças Toscana, Apimentada e Churrasco) têm validade de até 6 meses, se mantidos a -12ºC ou mais frio.</li>
-                                <li>- Produtos resfriados, como o bacon, devem ser consumidos em até 3 meses se armazenados adequadamente. Para mais informações específicas, verifique a embalagem do produto ou consulte nossa equipe.</li>
+                                <p>A Linguiça Toscana Apimentada deve ser descongelada apenas no refrigerador ou no micro-ondas. O produto cru deve ser mantido separado de outros alimentos e não deve ser lavado antes do manuseio. Apenas consuma o produto após cozido, frito ou assado completamente.</p>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className="w-full h-full flex flex-col">
+                        <div className="flex justify-start items-center cursor-pointer text-[18px]" onClick={() => toggleExpand(3)}>
+                            <span className="text-base text-black font-bold mb-2 md:text-lg xl:text-2xl"
+                            >Qual é a validade da Linguiça Toscana quando armazenada em freezer?</span>
+                            <span className="text-xl text-vermelho pb-2">
+                                {expandedSections[3] && <GoTriangleUp />}
+                                {!expandedSections[3] && <GoTriangleDown />}</span> {/* Ícone que alterna */}
+                        </div>
+                        <div className={`overflow-hidden transition-all duration-500 ${expandedSections[3] ?
+                            "h-[70px] md:h-[50px] lg:h-[70px] xl:h-[40px]" : "h-[0px]"} 
+                            `}>
+                            <ul className="text-black text-[13px] lg:text-lg">
+                                <p>A Linguiça Toscana possui uma validade de 6 meses quando armazenada em freezer a -12°C ou temperaturas mais baixas.</p>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className="w-full h-full flex flex-col">
+                        <div className="flex justify-start items-center cursor-pointer text-[18px]" onClick={() => toggleExpand(4)}>
+                            <span className="text-base text-black font-bold mb-2 md:text-lg xl:text-2xl"
+                            >O Embutido Misto Cozido contém glúten?</span>
+                            <span className="text-xl text-vermelho pb-2">
+                                {expandedSections[4] && <GoTriangleUp />}
+                                {!expandedSections[4] && <GoTriangleDown />}</span> {/* Ícone que alterna */}
+                        </div>
+                        <div className={`overflow-hidden transition-all duration-500 ${expandedSections[4] ?
+                            "h-[40px] md:h-[20px] lg:h-[20px] xl:h-[30px]" : "h-[0px]"} 
+                            `}>
+                            <ul className="text-black text-[13px] lg:text-lg">
+                                <p>Não, o Embutido Misto Cozido Sabor Calabresa não contém glúten.</p>
                             </ul>
                         </div>
                     </div>

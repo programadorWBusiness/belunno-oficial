@@ -138,7 +138,7 @@ export default function Home() {
               <div className={`w-full h-full flex justify-start items-center flex-col relative
                   md:ml-[23%]`}>
                 <div className="w-full h-[90px] flex justify-start items-end mb-4 md:h-[100px]">
-                  <h1 className="text-xl font-bold text-vermelho font-amsi mb-6 pr-6 xl:text-3xl 2xl:text-5xl">RECEITAS</h1>
+                  <h1 className="text-xl font-bold text-vermelho font-amsi mb-6 pr-6 xl:text-3xl 2xl:text-5xl">Receitas</h1>
                   <span className="w-[50px] h-[50px]  bg-cover bg-center bg-no-repeat 
                               md:w-[70px] md:h-[70px] lg:w-[100px] lg:h-[100px] 2xl:w-[100px] 2xl:h-[100px]"></span>
                 </div>
