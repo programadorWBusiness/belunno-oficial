@@ -206,7 +206,7 @@ export default function Page() {
 
                                     {recipe.vid &&
                                         <video src={`/images/${recipe.vid}`}
-                                            className="w-full h-[320px] object-fill"
+                                            className="w-full h-[320px] object-cover"
                                             controls
                                             loop
                                             playsInline></video>

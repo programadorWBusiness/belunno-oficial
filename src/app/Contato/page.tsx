@@ -141,7 +141,7 @@ export default function Page() {
                         </div>
                     </div>
 
-                    <div className="w-full h-full mb-8">
+                    <div className="w-full h-full mb-8 hidden">
                         <h3 className="text-lg font-bold text-vermelho mt-4 md:text-xl md:mt-8 xl:text-2xl">Não encontrou o que procurava?</h3>
                         <p className="text-base lg:text-lg xl:text-base">Faça sua pergunta no <span className="text-black font-bold">formulário de contato</span> selecionando a opção “Dúvidas frequentes” no campo selecionavel “Assunto”,
                             que entraremos em contato o mais breve possivel! Obrigado!</p>
