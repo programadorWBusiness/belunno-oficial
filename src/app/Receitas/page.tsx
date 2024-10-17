@@ -277,11 +277,10 @@ export default function Page() {
 
                                     {recipe.vid &&
                                         <video src={`/images/${recipe.vid}`}
-                                            className="w-full h-[220px] object-fill"
+                                            className="bg-black w-full h-[220px] object-fill"
                                             controls
                                             loop
                                             preload="metadata"
-                                            muted
                                             playsInline></video>
                                     }
 
