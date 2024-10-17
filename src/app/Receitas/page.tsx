@@ -281,6 +281,7 @@ export default function Page() {
                                             controls
                                             loop
                                             preload="metadata"
+                                            muted
                                             playsInline></video>
                                     }
 
