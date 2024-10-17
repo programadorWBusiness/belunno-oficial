@@ -280,6 +280,7 @@ export default function Page() {
                                             className="w-full h-[220px] object-fill"
                                             controls
                                             loop
+                                            preload="metadata"
                                             playsInline></video>
                                     }
 
