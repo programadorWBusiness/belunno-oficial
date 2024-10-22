@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import { AboutSpan } from "./components/AboutSpan";
 import { FirstHomeCarrosel } from "./components/FirstHomeCarrosel";
+import Head from "next/head";
 
 export default function Home() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -42,7 +43,10 @@ export default function Home() {
 
   return (
     <>
-    {/* Desenvolvido por Weuler Silva */}
+      <Head>
+        <link rel="canonical" href="https://belunno.com.br" />
+      </Head>
+      {/* Desenvolvido por Weuler Silva */}
       <section className="w-screen h-[45vh] bg-laranja relative md:h-screen">
         <video src="/images/belunno-video2.mp4"
           ref={videoRef}
@@ -72,7 +76,7 @@ export default function Home() {
               rigorosamente inspecionados para garantir a segurança e a
               satisfação dos nossos consumidores.</p>
 
-            <AboutSpan link="/Sobre" text="Saiba mais" style="bg-vermelho text-white text-[14px] py-1"/>
+            <AboutSpan link="/Sobre" text="Saiba mais" style="bg-vermelho text-white text-[14px] py-1" />
           </div>
 
 
